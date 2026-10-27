@@ -1,0 +1,33 @@
+/*estilização geral da página*/
+body {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+/*títulos imagem e parágeafo*/
+.titulo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div > h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 36px;
+}
+
+/*subtítulos*/
+h3 {
+    font-size: 22px;
+    font-style: italic;
+}
+
+/*listas*/
+#top-5, #hm {
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+}
